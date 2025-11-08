@@ -1,0 +1,91 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Pulse animation for loading dots */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Bounce animation for chatbot icon */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Shine effect animation for header */
+@keyframes shine {
+    0% {
+        background-position: -200%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+/* Glow pulse for header */
+@keyframes glow {
+    0%, 100% {
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.3), 0 0 10px rgba(255,255,255,0.3);
+    }
+    50% {
+        text-shadow: 2px 2px 8px rgba(0,0,0,0.3), 0 0 20px rgba(255,255,255,0.6);
+    }
+}
+
+/* Smooth scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #45a049;
+}
+
+/* Markdown content styling in chatbot */
+.markdown-content p {
+    margin: 0.5rem 0;
+}
+
+.markdown-content ul {
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.markdown-content li {
+    margin: 0.25rem 0;
+}
+
+.markdown-content strong {
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+/* Remove default focus outline and add custom one */
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+/* Smooth transitions for all interactive elements */
+button, input, a {
+    transition: all 0.3s ease;
+}

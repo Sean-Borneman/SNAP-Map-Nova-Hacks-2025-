@@ -1,0 +1,14 @@
+
+> snapmap-chatbot@1.0.0 start
+> node server.js
+
+
+🤖 SnapBot server is running on http://localhost:3001
+📊 Health check: http://localhost:3001/health
+
+⚙️  Configuration:
+   - Claude Model: claude-haiku-4-5-20251001
+   - Database: ../Database/my_records.db
+
+✨ Ready to assist with SNAP benefits!
+

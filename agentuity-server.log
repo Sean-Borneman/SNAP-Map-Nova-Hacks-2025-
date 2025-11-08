@@ -1,0 +1,22 @@
+ ✓ Synchronized project to .env file: /Users/mycomputer/Documents/GitHub/Nova-Hacks-2025/snapagent/.env
+┌────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                                                                                    │
+│  ⨺ Agentuity DevMode                                                                               │
+│                                                                                                    │
+│  DevMode     ]8;;https://app.agentuity.com/devmode/ep_tp8ltp075https://app.agentuity.com/devmode/ep_tp8ltp075]8;;                                        │
+│  Local       ]8;;http://127.0.0.1:3500http://127.0.0.1:3500]8;;                                                                 │
+│  Public      ]8;;https://ep_tp8ltp075.agentuity.runhttps://ep_tp8ltp075.agentuity.run]8;;  (only accessible while running)                   │
+│                                                                                                    │
+└────────────────────────────────────────────────────────────────────────────────────────────────────┘
+[32m[INFO][0m  Traceloop exporting traces to https://otel.agentuity.cloud
+[1;30m[DEBUG][0m Telemetry initialized with app_name: org_35D5AcLcH5d9voUhSfRGGj5OKew:proj_da5844b637b2639a42c20454337a212f
+[32m[INFO][0m  Telemetry configured successfully
+[1;30m[DEBUG][0m connected to Agentuity Agent Cloud
+[1;30m[DEBUG][0m Enabled Agentuity AI Gateway for openai
+[32m[INFO][0m  registered my agent at /agent_416ecd246d40edf4036065a2ba647f50
+[32m[INFO][0m  registered snap-search at /agent_snap_search_001
+[32m[INFO][0m  Node server listening on port 3500
+[INFO]  🚀 DevMode ready
+[K[1;30m[DEBUG][0m shutting down OpenTelemetry
+[1;30m[DEBUG][0m shut down OpenTelemetry
+[INFO]  👋 See you next time!

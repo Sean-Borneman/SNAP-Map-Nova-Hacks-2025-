@@ -1,6 +1,7 @@
 # SnapMap - SNAP Benefits Resource Finder
 
 A web application that helps users find food banks, soup kitchens, SNAP/EBT accepting stores, and get information about SNAP benefits using an AI-powered chatbot.
+<img width="2556" height="1349" alt="image" src="https://github.com/user-attachments/assets/734da835-3f6d-4124-bd3a-55e3c5023d38" />
 
 ## Features
 
